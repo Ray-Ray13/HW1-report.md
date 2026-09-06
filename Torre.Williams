@@ -1,0 +1,106 @@
+# Homework 1: Tool Setup
+
+Torré Williams  
+CS 625, Fall 2026  
+Due: Sunday, September 6, 2026
+
+## Git, GitHub
+
+### Q1 - URL of GitHub Repo
+
+https://github.com/Ray-Ray13/Practice-for-Class. 
+This is where I uploaded two files pertaining to Chronic Disease Indicators. 
+These files contains dates, types of diseases, groups, and location for ease of 
+filtering.
+
+### Q2 - Pull Command
+
+Remote changes to local. it 
+would make the changes remotely and 
+then push the updates to your machine 
+locally.
+
+### Q3 - Local Commits
+
+We would have forgotten to commit the 
+changes before pushing. 
+
+## Markdown
+
+### Q1 - Bulleted List
+
+*Purple 
+- Red 
++ Pink 
+The difference between bullet list amd, 
+is that bullet list is without ordering, 
+while numbered list is ordered.
+
+### Q2 - Markdown Paragraph
+
+This is a test <strong>bold 
+text</strong>. <em>Awesome</em>. 
+For <em><strong>class</strong></em>. 
+
+<html>
+  <head>
+    <title>Class Test</title>
+  </head>
+
+Buc-ee's [These 14 cities are about to get a Buc-ee’s!](https://www.msn.com/en-us/money/economy/these-14-cities-are-about-to-get-a-buc-ee-s/ar-AA2aXFLf?uxmode=ruby&ocid=edgntpruby&pc=HCTS&cvid=6a9d7f47dc3045869f487de9a27a6749&ei=22).
+
+### Q3 - Animal Image
+
+Insert your answer and explanation here
+
+## Tableau
+
+### Q1 - Region Other Than the South
+
+Insert your answer and explanation here
+
+## Google Colab
+
+### Q1 - URL of Google Colab Notebook
+
+Insert your answer and explanation here
+
+## Python/Seaborn
+
+### Q1 - First Penguin Image
+
+Insert your answer and explanation here
+
+### Q2 - Second Penguin Image
+
+Insert your answer and explanation here
+
+### Q3 - Outer Parenthesis
+
+Insert your answer and explanation here
+
+## Observable and Vega-Lite
+
+### Q1 - markCircle to markSquare
+
+Insert your answer and explanation here
+
+### Q2 - markCircle to markPoint
+
+Insert your answer and explanation here
+
+### Q3 - Swap X and Y Axes on Scatterplot
+
+Insert your answer and explanation here
+
+### Q4 - Remove fieldN(Origin)
+
+Insert your answer and explanation here
+
+## References
+
+Common Reasons Why `git push` Fails to Show Changes on GitHub, https://gitscripts.com/git-push-not-showing-up-on-github
+* 
+Graph Network using Vega-Lite or Vega, <https://stackoverflow.com/questions/77096216/graph-network-using-vega-lite-or-vega>
+* Calculating percentage change - Math for journalists, <https://observablehq.com/@nshiab/math-for-journalists>
+* ChatGPT: "How can I add an axis label to my line chart in Seaborn?", <https://chatgpt.com/share/684c8e25-4944-8011-b265-ae9aefc07959>
