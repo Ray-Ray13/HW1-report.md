@@ -14,13 +14,14 @@ These files contains dates, types of diseases, groups, and location for ease of
 filtering.
 
 ### Q2 - Pull Command
-
+git pull --force
 Remote changes to local. it 
 would make the changes remotely and 
 then push the updates to your machine 
 locally.
 
 ### Q3 - Local Commits
+Commit changes is the option on the right hand of the screen that is green. 
 
 We would have forgotten to commit the 
 changes before pushing. 
@@ -31,7 +32,8 @@ changes before pushing.
 
 *Purple 
 - Red 
-+ Pink 
++ Pink
+  
 The difference between bullet list amd, 
 is that bullet list is without ordering, 
 while numbered list is ordered.
@@ -51,38 +53,55 @@ Buc-ee's [These 14 cities are about to get a Buc-ee’s!](https://www.msn.com/en
 
 ### Q3 - Animal Image
 
-![Cheetah](/cheetah image.webp)
+![Cheetah](cheetahimage.jpeg")
+ My favorite animal. Code tells us the 
+ name and location path of the image.
 ## Tableau
 
 ### Q1 - Region Other Than the South
 
-Insert your answer and explanation here
+![Sales in the South](SalesintheSouth.png) 
+
+![Sales in the East](SalesintheEast.png)
+
+We were able to focus on sales from both the 
+South and the East. I was able to filter around year and 
+see the trends among the sales in different categories.
 
 ## Google Colab
 
 ### Q1 - URL of Google Colab Notebook
 
-Insert your answer and explanation here
+![HW1 Visualization](https://colab.research.google.com/drive/1nzaXxl-3ORH3fo916KNrQ1uSqqAPxQNB?usp=sharing)
 
 ## Python/Seaborn
 
 ### Q1 - First Penguin Image
 
-Insert your answer and explanation here
+![Q1 image](Q1image.png)
+scatter plot relationship between length and depth
 
 ### Q2 - Second Penguin Image
 
-Insert your answer and explanation here
+![Q2 image](Q2image.png)
+bar chart that gives a better visual between the overall body mass among three types of species
 
 ### Q3 - Outer Parenthesis
-
-Insert your answer and explanation here
+ so.Plot(penguins, x="species", y="body_mass_g")
+    .add(so.Bar(), so.Agg())
+we got an error message, letting us know that we are missing a key component for the code to run.
 
 ## Observable and Vega-Lite
 
 ### Q1 - markCircle to markSquare
 
-Insert your answer and explanation here
+vl.markCircle({size :200}) 
+  .data(cars)
+  .encode(
+    vl.x().fieldQ("Miles_per_Gallon"),
+    vl.y().fieldQ("Acceleration"),
+    vl.tooltip().fieldN("Name"))
+  .render()
 
 ### Q2 - markCircle to markPoint
 
@@ -90,16 +109,24 @@ Insert your answer and explanation here
 
 ### Q3 - Swap X and Y Axes on Scatterplot
 
-Insert your answer and explanation here
-
+vl.markCircle()
+  .data(cars)
+  .encode(
+    vl.x().fieldQ("Miles_per_Gallon"),
+    vl.y().fieldQ("Acceleration"),
+    vl.tooltip().fieldN("Name"))
+  .render()
+  would've seen a downward trend starting from the right to the left, clusters of the categories, and potentially some outliers
 ### Q4 - Remove fieldN(Origin)
 
-Insert your answer and explanation here
-
+vl.markBar()                 
+  .data(cars)
+  .encode(
+    vl.x().average("Miles_per_Gallon")
+  )
+  .render()                 
+this gives us the average miles per gallon for cars
 ## References
 
 Common Reasons Why `git push` Fails to Show Changes on GitHub, https://gitscripts.com/git-push-not-showing-up-on-github
-* 
-Graph Network using Vega-Lite or Vega, <https://stackoverflow.com/questions/77096216/graph-network-using-vega-lite-or-vega>
-* Calculating percentage change - Math for journalists, <https://observablehq.com/@nshiab/math-for-journalists>
-* ChatGPT: "How can I add an axis label to my line chart in Seaborn?", <https://chatgpt.com/share/684c8e25-4944-8011-b265-ae9aefc07959>
+Git pull https://github.com/git-guides/git-pull
