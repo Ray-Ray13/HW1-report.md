@@ -8,7 +8,7 @@ Due: Sunday, September 6, 2026
 
 ### Q1 - URL of GitHub Repo
 
-https://github.com/Ray-Ray13/Practice-for-Class. 
+https://github.com/odu-cs625-datavis/fall26-bhanuka-Ray-Ray13. 
 This is where I uploaded two files pertaining to Chronic Disease Indicators. 
 These files contains dates, types of diseases, groups, and location for ease of 
 filtering.
